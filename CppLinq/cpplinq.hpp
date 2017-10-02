@@ -3921,7 +3921,7 @@ namespace cpplinq
 
             CPPLINQ_INLINEMETHOD to_lookup_value_selector_builder (to_lookup_value_selector_builder const & v)
                 :   key_selector    (v.key_selector)
-                :   value_selector  (v.value_selector)
+                ,   value_selector  (v.value_selector)
             {
             }
 
